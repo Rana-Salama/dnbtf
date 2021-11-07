@@ -4,8 +4,7 @@ Terraform that can be used to provision resources for a web server running apach
 
 # Contents
 
-The directory for creating the needed modules base to be used for the deployment.
-- [Modules](/modules)
+- [Modules](/modules) The directory for creating the needed modules base to be used for the deployment.
   - [S3 Module](/modules/s3)
   - [Server Module](/modules/server)
   - [VPC Module](/modules/vpc)
