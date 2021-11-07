@@ -18,7 +18,7 @@ Terraform that can be used to provision resources for a web server running apach
 # Prerequisites
 - Terraform istalled on the control machine where you are running the code.
 Verify by running 
-terraform --version 
+`terraform --version` 
 - Ensure you have full aws access to the account via IAM credentils stored in "~/.aws/credentials" or override the file in the aws provider in [main.tf](/main.tf).
 - Backend S3 bucket to store the state file.
 - EC2 Key used to ssh.
@@ -112,10 +112,10 @@ terraform --version
 2. Edit [main.tf](/main.tf) in the root directory, remove the comment and add the bucket name under [ backend "s3"] to store the state file.
 
 **Using the control machine running terraform to run the below from the root directory**
-1. terraform init
-2. terraform apply -auto-approve
+1. `terraform init`
+2. `terraform apply -auto-approve`
 3. You can view the outputs running
-terraform output
+`terraform output`
 
 **Clean up**
-1. terraform destroy
+1. `terraform destroy`
