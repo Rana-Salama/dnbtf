@@ -9,12 +9,9 @@ The directory for creating the needed modules base to be used for the deployment
   - [S3 Module](/modules/s3)
   - [Server Module](/modules/server)
   - [VPC Module](/modules/vpc)
-The base file for the deployment.
-- [main.tf](/main.tf)
-The variables file defines the main variables used for the deployment.
-- [variables.tf](/variables.tf)
-The variables file defines the vaules for the variables used for the deployment.
-- [terraform.auto.tfvars](/terraform.auto.tfvars)
+- [main.tf](/main.tf) The base file for the deployment.
+- [variables.tf](/variables.tf) The variables file defines the main variables used for the deployment.
+- [terraform.auto.tfvars](/terraform.auto.tfvars) The variables file defines the vaules for the variables used for the deployment.
 
 # Requirements
 - An AWS Account
