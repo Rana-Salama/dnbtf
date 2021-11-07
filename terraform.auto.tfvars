@@ -1,0 +1,6 @@
+aws_region          = "us-east-1"
+role                = "test"
+project             = "dandb"
+owner_email         = "test@email.com"
+aws_keypair         = "sshkey"
+public_key_location = "./sshkey.pub"
